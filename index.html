@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Search Engine</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-      <!--Regular search-->
-       <div>
-            <form id="regular">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Engine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Regular search-->
+    <div id="regular">
+      <h1>Google Search</h1>
 
-            </form>
-      </div>
+      <form method="GET" action="https://www.google.com/search">
+        <input class="search" type="text" name="q" autofocus placeholder />
+        <br>
+        <input type="submit" value="Search" />
+      </form>
+    </div>
 
-      <!--Image  Search-->
-      <div>
-            <form id="image">
+    <!--Image Search-->
+    <div id="image">
+      <h1>Google Image Search</h1>
 
-            </form>
-      </div>
+      <form method="GET" action="http://images.google.com/images">
+        <input class="search" type="text" name="q">
+        <br>
+        <input type="submit" value="Search" />
+      </form>
+    </div>
 
+    <!--Advanced search-->
+    <div id="advanced">
+      <h1>Google Advanced Search</h1>
 
-      <!--Advanced search-->
-      <div>
-            <form id="advanced">
-              
-            </form>
-      </div>
-
-
-
-
-</body>
+      <form method="GET" action="https://www.google.com/advanced_search">
+        <input class="search" type="text" name="q"/>
+        <br>
+        <input type="submit" value="Search" />
+      </form>
+    </div>
+  </body>
 </html>

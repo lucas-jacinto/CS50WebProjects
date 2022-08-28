@@ -1,0 +1,21 @@
+#regular {
+  background-color: chocolate;
+  padding: 0px;
+  text-align: center;
+}
+
+#image {
+  background-color: burlywood;
+  padding: 0px;
+  text-align: center;
+}
+
+#advanced {
+  background-color: bisque;
+  padding: 0px;
+  text-align: center;
+}
+
+.search {
+  border-radius: 8px;
+}
