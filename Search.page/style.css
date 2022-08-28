@@ -1,0 +1,11 @@
+#regular {
+  background-color: rgb(97, 64, 64);
+  display: grid;
+  place-items: center;
+  padding: 0px;
+  text-align: center;
+}
+
+.search {
+  border-radius: 8px;
+}

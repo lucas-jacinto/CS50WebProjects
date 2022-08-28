@@ -1,0 +1,9 @@
+#image {
+  background-color: burlywood;
+  padding: 0px;
+  text-align: center;
+}
+.search {
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
