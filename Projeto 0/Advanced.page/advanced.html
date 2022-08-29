@@ -4,30 +4,60 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advanced Google Search</title>
+  <title>Google Advanced Search</title>
   <link rel="stylesheet" href="advstyle.css">
 </head>
 <body>
-  
-  <!--Advanced search-->
-  <div id="advanced">
-    <h1>Google Advanced</h1>
 
-    <form method="GET" action="https://www.google.com/advanced_search">
-      <input
-        class="search"
-        type="text"
-        name="q"
-        placeholder="Advanced Search"
-      />
-      <br />
-      <input type="submit" value="Search" />
-    </form>
-    <div>
-      <a href="http://127.0.0.1:5500/Projeto%200/Search.page/index.html"
-        >Back on Google Search</a
-      >
+  <div>
+       <p id ="head">Advanced Search</p> <hr/>
   </div>
-  
+
+   <!--Advanced search-->
+  <div id="advanced">
+
+    <p id="phr">Find pages with...</p>
+
+        <!--Fields to input-->
+        <form method="GET" action="https://www.google.com/advanced_search">
+            <div>
+                  <p style="font-size: 15px;"> all these words: 
+                    <input class="search" type="text" name="q" placeholder="Advanced Search"/><br/>
+                  </p>
+                  
+                  <p style="font-size: 15px;"> this exact word or phrase:
+                    <input class="search" type="text" name="q" placeholder="Advanced Search"/><br/>
+                  </p>
+
+                  <p style="font-size: 15px;"> any of these words:
+                    <input class="search" type="text" name="q" placeholder="Advanced Search"/><br/>
+                  </p>
+
+                  <p style="font-size: 15px;">none of these words:
+                    <input class="search" type="text" name="q" placeholder="Advanced Search"/><br/>
+                  </p>
+            </div>
+
+            <div class="submit">
+              <input id="srch" type="submit" value="Search" />
+            </div>
+          
+        </form>
+
+  <!--Back in google search-->
+   <div>
+      <a href="http://127.0.0.1:5500/Projeto%200/Search.page/index.html">Back on Google Search</a >
+  </div> <br>
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
