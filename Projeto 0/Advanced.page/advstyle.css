@@ -1,16 +1,18 @@
-body{
+body {
   background-color: rgba(32, 33, 36, 1);
 }
 #advanced {
   background-color: rgba(32, 33, 36, 1);
+  color: #fff;
   padding: 0px;
   margin: 60px;
   font-family: Arial, sans-serif;
+  font-weight: lighter;
 }
 
 #head {
-  color: red;
-  font-size: 26px;
+  color: #f28b82;
+  font-size: 24px;
   font-family: Arial, sans-serif;
   text-align: left;
   margin-left: 60px;
@@ -21,8 +23,8 @@ body{
 #header {
   margin: 20px;
   margin-top: 10px;
-  font-size: 30px;
-  font-family: Arial,sans-serif;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
   text-decoration: none;
   color: inherit;
 }
@@ -36,29 +38,42 @@ body{
 }
 
 .search {
-  border-radius: 8px;
+  border-radius: 0px;
   margin-bottom: 10px;
+  background: #202124;
+  border: 1px solid #5f6368;
+  color: #bdc1c6;
+  width: 600px;
+  height: 32px;
+  text-align: left;
+}
+#phr {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
+.texts {
+  display: inline-block;
+  font-size: 11px;
+  margin: 10px;
+}
 /*Button submit */
 #srch {
   width: 150px;
+  height: 30px;
   background: #8ab4f8;
   border-color: #8ab4f8;
   color: #202124;
   margin: 0;
   padding: 0;
   border: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  text-decoration: none;
-  vertical-align: baseline;
-}
-
-#phr {
-  font-size: 20px;
-  font-weight: bolder;
+  border-radius: 2px;
+  cursor: default;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .submit {
@@ -66,7 +81,7 @@ body{
 }
 
 a {
-  color: #000;
+  color: #fff;
   font-size: medium;
 }
 
@@ -80,7 +95,6 @@ a {
   padding-right: 10px;
 }
 
-.back:hover {
-  
+#ptop {
+  margin-bottom: 0px;
 }
-
