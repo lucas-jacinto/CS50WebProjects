@@ -1,14 +1,17 @@
+body{
+  background-color: rgba(32, 33, 36, 1);
+}
 #advanced {
-  background-color: bisque;
+  background-color: rgba(32, 33, 36, 1);
   padding: 0px;
   margin: 60px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 #head {
   color: red;
   font-size: 26px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   text-align: left;
   margin-left: 60px;
   padding-top: 50px;
@@ -19,7 +22,7 @@
   margin: 20px;
   margin-top: 10px;
   font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial,sans-serif;
   text-decoration: none;
   color: inherit;
 }
@@ -28,7 +31,7 @@
   text-align: right;
   margin-left: 550px;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -66,3 +69,18 @@ a {
   color: #000;
   font-size: medium;
 }
+
+#imglogo {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.back {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.back:hover {
+  
+}
+
