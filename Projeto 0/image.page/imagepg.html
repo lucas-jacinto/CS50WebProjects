@@ -13,6 +13,16 @@
     />
   </head>
   <body>
+    <!--Go back to Google Search-->
+    <div class="logoback">
+      <a
+        title="Go Back to Google Search"
+        href="http://127.0.0.1:5500/Projeto%200/Search.page/index.html"
+      >
+        <img id="back" src="../imgs/Google_2015_logo.svg.png"
+      /></a>
+    </div>
+
     <!--Logo Image-->
     <div>
       <img id="imglogo" src="../imgs/Google_Images_2015_logo.svg.png" />
@@ -22,19 +32,15 @@
     <div id="image">
       <form method="GET" action="http://images.google.com/images">
         <input
+          id="bar"
           class="search"
           type="text"
           name="q"
-          placeholder="Search for Images"
+          placeholder=" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search for Images"
         />
         <br />
-        <input type="submit" value="Search" />
+        <input id="searchbt" type="submit" value="Search" />
       </form>
-      <div>
-        <a href="http://127.0.0.1:5500/Projeto%200/Search.page/index.html"
-          >Back on Google Search</a
-        >
-      </div>
     </div>
   </body>
 </html>

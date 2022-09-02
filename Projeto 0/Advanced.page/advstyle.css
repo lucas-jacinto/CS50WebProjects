@@ -37,6 +37,12 @@ body {
   font-size: 14px;
 }
 
+#linkb:hover {
+  background-color: #303134;
+  border: hidden;
+  transition: all 1s linear;
+}
+
 .search {
   border-radius: 0px;
   margin-bottom: 10px;

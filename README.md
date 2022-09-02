@@ -27,5 +27,3 @@ Twitter-like."
 # Final Project
 
 Objetivo: "Designing and implementing a web application of your own with Python and JavaScript."
-
-Espero que tenham gostado
