@@ -41,6 +41,7 @@ body {
 .search:hover {
   background-color: #303134;
   border: hidden;
+  transition: all 1s linear;
 }
 
 a {
